@@ -68,6 +68,41 @@ header h1{
     background-image: url(img/1.jpg);
 
 }
+@media all and (max-width: 700px){
+    header h1{
+        font-size: 2rem;
+        color: rgb(230, 230, 230);
+        background-color: rgba(29, 25, 25, 0.8);
+        padding: 15px;
+        letter-spacing: 4px;
+    }
+
+.container{
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.one{
+    height: 25vh;
+}
+.two{
+    height: 25vh;
+}
+.three{
+    height: 25vh;
+
+}
+.four{
+    height: 25vh;
+
+}
+.five{
+    height: 25vh;
+
+}
+}
+
 
 
 
